@@ -14,15 +14,11 @@ To use this wrapper with vscode:
 
   - Save the pylint-3-wrapper.py file somewhere on your system
   - Run chmod +rx pylint-3-wrapper.py
+  - Check that the setting within the script ('REAL_EXEC=/usr/bin/pylint-3') is the correct path for your system.
   - In your VSCode user settings, set property 'python.linting.pylintPath' to the path of the wrapper script.
   
  
-Example vscode settings for pylint-3
-
+# Example vscode settings for pylint-3
 { 
     "python.linting.pylintPath":"/usr/bin/pylint-3",
-    "python.linting.pylintArgs": [
-        "-j","10",
-        "-d","C0303",
-    ],
 }
