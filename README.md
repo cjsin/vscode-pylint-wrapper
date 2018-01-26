@@ -19,6 +19,6 @@ To use this wrapper with vscode:
   
  
 # Example vscode settings for pylint-3
-{ 
-    "python.linting.pylintPath":"/usr/bin/pylint-3",
-}
+    { 
+        "python.linting.pylintPath":"/home/example/bin/pylint-3-wrapper.py",
+    }
